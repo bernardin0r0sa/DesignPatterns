@@ -1,2 +1,2 @@
 # DesignPatterns
-The 7 Core Design Patterns
+The 7 Core Design Patterns Examples
