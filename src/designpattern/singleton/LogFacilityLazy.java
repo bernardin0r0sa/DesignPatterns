@@ -6,7 +6,7 @@ package designpattern.singleton;
 public class LogFacilityLazy {
 
 
-    private static LogFacilityLazy uniqueLogInstance = new LogFacilityLazy();
+    private static LogFacilityLazy uniqueLogInstance;
 
     private LogFacilityLazy() {}
 
