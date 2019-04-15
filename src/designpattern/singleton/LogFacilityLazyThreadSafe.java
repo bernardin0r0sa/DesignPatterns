@@ -6,7 +6,7 @@ package designpattern.singleton;
 public class LogFacilityLazyThreadSafe {
 
 
-    private static LogFacilityLazyThreadSafe uniqueLogInstance = new LogFacilityLazyThreadSafe();
+    private static LogFacilityLazyThreadSafe uniqueLogInstance;
 
     private LogFacilityLazyThreadSafe() {}
 
