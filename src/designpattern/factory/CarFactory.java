@@ -15,9 +15,9 @@ public class CarFactory {
         map.put("LAMBORGHINI", Lamborghini::new);
     }
     public Car getCar(String carBrand){
-        Supplier<Car> shape = map.get(carBrand.toUpperCase());
-        if(shape != null) {
-            return shape.get();
+        Supplier<Car> car = map.get(carBrand.toUpperCase());
+        if(car != null) {
+            return car.get();
         }
         throw new IllegalArgumentException("The  " + carBrand.toUpperCase() + " car brand doesn't exist");
     }
