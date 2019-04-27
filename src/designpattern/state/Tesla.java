@@ -1,5 +1,8 @@
 package designpattern.state;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /**
  * Created by bernardinorosa on 27/04/19.
  */
@@ -20,6 +23,7 @@ public class Tesla {
 
         System.out.println("/////Your customization is done ///////");
         System.out.println(teslaModel3.toString());
+
 
 
     }
